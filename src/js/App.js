@@ -4,6 +4,7 @@ import MainBannerPage from './MainBannerPage';
 import SkillsBanner from './SkillsBanner';
 import ProjectBanner from './ProjectBanner';
 import Footer from './Footer';
+import React from 'react';
 
 function App() {
 
