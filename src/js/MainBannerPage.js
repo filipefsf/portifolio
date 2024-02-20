@@ -1,7 +1,7 @@
 import '../estilos/MainBannerPage.css';
 import Icones from './Icones';
 import useCopiarClipBoard from './useCopiarClipBoard';
-import TypingTextAnimation from 'react-typing-text-animation';
+import { ReactTyped } from "react-typed";
 import React, { useState, useEffect } from 'react';
 
 export default function MainBannerPage(){
@@ -31,7 +31,7 @@ export default function MainBannerPage(){
     return(
         <div id="secaoInicio" className="mainBanner">
             <div className="presentation">
-                <h2><TypingTextAnimation delay={50} text='Olá, meu nome é Filipe e eu sou um...' /></h2>
+                <h2><ReactTyped strings={["Olá, meu nome é Filipe e eu sou um..."]} typeSpeed={40} /></h2>    
             </div>
             <div className="mainTitle">
                 <div className="tituloAEicones">
