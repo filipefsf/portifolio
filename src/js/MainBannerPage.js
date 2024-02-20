@@ -18,7 +18,7 @@ export default function MainBannerPage(){
       }, 3000)
       const timeout3 = setTimeout(() =>{
         setIsVisible3(true);
-      }, 4200)
+      }, 4000)
   
       return () => clearTimeout(timeout);
     }, []);

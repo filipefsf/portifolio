@@ -11,7 +11,7 @@ export default function Icones(){
     useEffect(() => {
       const timeout = setTimeout(() => {
         setIsVisible(true);
-      }, 4600);
+      }, 4500);
   
       return () => clearTimeout(timeout);
     }, []);
