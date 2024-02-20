@@ -9,7 +9,7 @@
     width:33.3%;
     cursor: pointer;
     text-shadow: 6x 6x black;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .linkLinkedIn{
@@ -24,9 +24,20 @@
     color: white;
 }
 
-.iconeUnico a:hover{
+.fade-in-bottom {
+    opacity: 0;
+    transform: translateY(25%);
+    transition: opacity 1s ease-in-out, transform 0.7s ease-in-out; 
+  }
+  
+  .fade-in-bottom.active {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+
+  .iconeUnico a:hover{
     color:black;
-    text-shadow: 6x 6x white;
+
     transform: scale(1.15);
 }
 .iconeUnico:hover{

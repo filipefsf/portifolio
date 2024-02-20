@@ -9,6 +9,7 @@ import { SiMysql } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
 import { TbBrandCpp } from "react-icons/tb";
 import { SiArduino } from "react-icons/si";
+import React from "react";
 
 export default function SkillsBanner(){
     return(

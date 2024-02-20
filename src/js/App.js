@@ -4,7 +4,6 @@ import MainBannerPage from './MainBannerPage';
 import SkillsBanner from './SkillsBanner';
 import ProjectBanner from './ProjectBanner';
 import Footer from './Footer';
-import FadeIn from 'react-fade-in';
 
 function App() {
 
@@ -12,8 +11,8 @@ function App() {
     <div className="App">
       <Header />
       <MainBannerPage />
-      <FadeIn delay={7000} transitionDuration={1000}><SkillsBanner/></FadeIn>
-      <FadeIn delay={7300} transitionDuration={1000}><ProjectBanner /></FadeIn>
+      <SkillsBanner />
+      <ProjectBanner />
       <Footer />
     </div>
   );
