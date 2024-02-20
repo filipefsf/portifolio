@@ -45,4 +45,11 @@
       "last 1 safari version"
     ]
   }
+  {
+    "name": "portifolio",
+    "version": "1.0.0",
+    "scripts": {
+      "vercel-build": "npm install --legacy-peer-deps"
+    }
+  }
 }
