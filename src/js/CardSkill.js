@@ -1,4 +1,5 @@
 import '../estilos/CardSkill.css';
+import React from 'react';
 
 export default function CardSkill(props){
     const habilidade = props.habilidade;

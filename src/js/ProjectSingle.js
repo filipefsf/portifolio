@@ -1,4 +1,5 @@
 import '../estilos/ProjectSingle.css';
+import React from 'react';
 
 export default function ProjectSingle(props){
     const nomeProjeto = props.nomeProjeto;

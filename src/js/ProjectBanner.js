@@ -2,6 +2,7 @@ import '../estilos/ProjectBanner.css';
 import ProjectSingle from './ProjectSingle';
 import imagem from '../resources/projeto1portifolio.png'
 import imagem2 from '../resources/projeto2portifolio.png'
+import React from 'react';
 
 export default function ProjectBanner(){
     return(
