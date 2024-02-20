@@ -95,15 +95,15 @@
 }
 
 .campoEmail:hover{
-    border: 2px solid black;
+    border: 1.5px solid black;
     background-color: rgb(246, 243, 243);
     color:black;
 }
 
 .campoEmail.copied-success {
-    background-color: rgb(3, 164, 3);
+    background-color: rgb(5, 174, 5);
     color: white; 
-    border: 2px solid black;
+    border: 1.8px solid black;
 }
 
 .fade-in-bottom {
@@ -122,10 +122,17 @@
         width: 100%;
     }
     .paragrafoFinal p, .campoEmail, .formularioEmail h3{
-        font-size: 2vw;
+        margin-top: 1%;
+        font-size: 3vw;
     }
     .presentation{
         margin-top: 14%;
+    }
+    .presentation h2{
+        font-size: 2.5vw;
+    }
+    .campoEmail{
+        height: 7vw;
     }
 }
 

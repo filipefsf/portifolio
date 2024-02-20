@@ -17,14 +17,17 @@ export default function Header(){
 
     const rolarParaInicio = () => {
         document.getElementById("secaoInicio").scrollIntoView({ behavior: "smooth" });
+        setMenuVisivel(!menuVisivel);
     }
 
     const rolarParaSkills = () => {
         document.getElementById("secaoSkills").scrollIntoView({ behavior: "smooth" });
+        setMenuVisivel(!menuVisivel);
     }
 
     const rolarParaProjetos = () => {
         document.getElementById("secaoProjetos").scrollIntoView({ behavior: "smooth" });
+        setMenuVisivel(!menuVisivel);
     }
 
     return(

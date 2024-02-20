@@ -30,3 +30,13 @@
     font-size: 17px;
     margin-top: 15px;
 }
+
+@media screen and (max-width: 1024px) {
+    .card:hover {
+        transform: none;
+    }
+    
+    .card h3:hover {
+        color:gold;
+    }
+}
