@@ -1,0 +1,145 @@
+.w50{
+    width:50%;
+}
+
+.mainBanner{
+    width:100%;
+    height:auto;
+    padding: 5% 10%;
+    font-family: 'Lato','-sans-serif';
+    background:#FFD700;
+    text-align: left;
+}
+.presentation{
+    width:100%;
+    padding-top: 3%;
+    margin-top: 4%;
+}
+.presentation h2{
+   text-transform: uppercase;
+   font-family: 'Lato','-sans-serif';
+   font-weight: 900;
+   font-size: 2vw;
+   
+}
+.tituloAEicones{
+    display: flex;  
+    width:100%;
+    margin-bottom: -2.5vw;
+}
+.tituloA{
+    width: 50%;
+}
+.tituloA h1{
+    text-transform: uppercase;
+    font-size: 12vw;
+    font-weight: 900;
+    color:white;
+    text-shadow: 7px 7px black;
+}
+.icones{
+    margin-top: 5%;
+    margin-right:9%;
+    width:50%;
+}
+.tituloB{
+    width:100%;
+    padding: 0;
+}
+.tituloB h1{
+    text-transform: uppercase;
+    font-size: 12vw;
+    font-weight: 900;
+    color:white;
+    text-shadow: 7px 7px black;
+    padding: 0;
+}
+.emailEParagrafoFinal{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.paragrafoFinal{
+    text-align: justify;
+    padding-right:2%;
+    margin-top: 4%;
+}
+.paragrafoFinal p{
+    font-family: 'Lato','-sans-serif';
+    font-size: 1.4vw;
+    font-style: italic;
+}
+.formularioEmail{
+    margin:10% 0;
+    text-align: center;
+}
+
+.formularioEmail h3{
+    width:100%;
+    font-size: 1.4vw;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+.campoEmail{
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    color:#858181;
+    background-color: white;
+    font-family: "Lato",sans-serif;
+    font-size: 1.4vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    height:4vw;
+    width:90%;
+}
+
+.campoEmail:hover{
+    border: 2px solid black;
+    background-color: rgb(246, 243, 243);
+    color:black;
+}
+
+.campoEmail.copied-success {
+    background-color: rgb(3, 164, 3);
+    color: white; 
+    border: 2px solid black;
+}
+
+@media screen and (max-width:1024px){
+    .w50{
+        width: 100%;
+    }
+    .paragrafoFinal p, .campoEmail, .formularioEmail h3{
+        font-size: 2vw;
+    }
+    .presentation{
+        margin-top: 14%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .tituloA{
+        width: 100%;
+        margin-left:4%;
+    }
+    .tituloAEicones{
+        text-align: center;
+    }
+    .icones{
+        width: 0%;
+    }
+    .mainTitle{
+        text-align: center;
+    }
+    .tituloA h1, .tituloB h1{
+        text-shadow: 5px 5px black;
+    }
+    .presentation{
+        text-align: center;
+        margin-top: 14%;
+    }
+    .presentation h2{
+        margin-right: 4%;
+    }
+}

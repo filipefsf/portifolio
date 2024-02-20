@@ -1,0 +1,51 @@
+.iconesContato{
+    font-size: 9vw;
+    display:flex;
+    width:100%;
+    text-align: center;
+}
+
+.iconeUnico{
+    width:33.3%;
+    cursor: pointer;
+    text-shadow: 6x 6x black;
+    transition: 0.5s;
+}
+
+.linkLinkedIn{
+    color:#0b66c2;
+}
+
+.linkCurriculum{
+    color: #b30c00;
+}
+
+.linkGitHub{
+    color: white;
+}
+
+.iconeUnico a:hover{
+    color:black;
+    text-shadow: 6x 6x white;
+    transform: scale(1.15);
+}
+.iconeUnico:hover{
+    transform: scale(1.15);
+}
+
+@media screen and (max-width:1024px){
+    .iconesContato{
+        font-size: 8vw;
+    }
+}
+
+@media screen and (max-width:768px){
+    .iconesContato{
+        display: none;
+    }
+    .linkLinkedIn, .linkCurriculum, .linkGitHub{
+        color:white;
+    }
+    
+}
+      

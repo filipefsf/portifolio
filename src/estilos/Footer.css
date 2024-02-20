@@ -1,0 +1,22 @@
+.centerFooter{
+    width:100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 0;
+
+}
+
+.centerFooter p{
+    font-size: 1.4vw;
+    font-weight: 600;
+    font-family: 'Lato','sans-serif';
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+.w33f{
+    width:33.3%;
+}
