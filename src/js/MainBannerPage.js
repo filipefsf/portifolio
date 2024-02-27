@@ -36,7 +36,7 @@ export default function MainBannerPage(){
             <div className="mainTitle">
                 <div className="tituloAEicones">
                     <div className={`fade-in-bottom ${isVisible ? 'active' : ''} tituloA`}>
-                        <h1>REACT</h1>
+                        <h1>WEB</h1>
                     </div>
                     <div className="icones">
                         <Icones />
